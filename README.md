@@ -24,6 +24,11 @@ Working and tested on Linux, FreeBSD and macOS. Windows support is planned. Open
 go get github.com/cjbassi/gotop
 ```
 
+### Build from source
+
+  go mod vendor
+  go run main.go
+
 ### Prebuilt binaries
 
 **Note**: Doesn't require Go.
